@@ -3,8 +3,8 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 
-const connectDB = require('./db');
-const userRoutes = require('./user.route');
+const connectDB = require('./src/db');
+const userRoutes = require('./src/user.route');
 
 const app = express();
 
